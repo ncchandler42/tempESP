@@ -1,0 +1,4 @@
+build/
+log.txt
+MLP_model.yml
+traindata.csv

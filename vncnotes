@@ -1,0 +1,6 @@
+I used to have x11vnc running as a root service, but it stopped working for some reason. I don't remember what the issue was
+	x11vnc -localhost -display :0 -forever
+I usually run that in a tmux shell so I can close it and kill it later
+then from the client, 
+	ssh -L 5900:localhost:5900 matt@server
+Then connect the VNC client to 5900 on localhost. I use remmina for linux, and VNC Viewer on android

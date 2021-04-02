@@ -1,0 +1,4 @@
+HDisplay: 1024
+VDisplay: 768
+HTotal: 1344
+Pixel Clock: 65.00 MHz
